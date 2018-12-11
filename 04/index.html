@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intro to CSS</title>
+
+        <style>
+            h2 {
+                color: red;
+                font-size: 25px;
+            }
+
+            h3 {
+                color: green;
+                font-size: 25px;
+            }
+
+            h4 {
+                color: blue;
+                font-size: 25px;
+            }
+
+            p {
+                color: yellow;
+            }
+            
+            .first-paragraph {
+                color: orange;
+                font-size: 30px;
+            }
+            .second_paragraph {
+                color: purple;
+                font-size: 10px;   
+            }
+            .thirdParagraph {
+                color: coral;
+                font-size: 80px;
+            }
+
+            #tag {
+                font-size: 50px;
+                color: darkcyan;
+                background-color: darkgoldenrod;
+            }
+
+            .category {
+                font-size: 40px;
+                background-color: black;
+                color: white;
+                /* 
+                    DA SE OBJASNI NAREDEN CAS
+                */
+                display: inline-block;
+                /* 
+                    DA SE OBJASNI NAREDEN CAS
+                */
+                width: 400px;
+                height: 400px;
+                text-align: center;
+                font-weight: bold;
+                font-family: sans-serif;
+            }
+
+            .red-block {
+                background: red;
+            }
+
+            .red-block-title {
+                text-align: left;
+                color: white;
+            }
+
+            .green-block {
+                background: green;
+            }
+
+            .green-block-title {
+                text-align: center;
+                color: white;
+            }
+
+            .blue-block {
+                background: blue;
+            }
+
+            .blue-block-title {
+                text-align: right;
+                color: white;
+            }
+
+            .single-block {
+                width: 600px;
+                height: 400px;
+            }
+
+            .black-block{
+                background-color: black;
+                color: white;
+            }
+
+            .black-block span {
+                color: yellow;
+                font-size: 30px;
+            }
+
+            .black-block h2 {
+                color: white;
+                line-height: 50px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>I'm red</h2>
+        <h3>I'm green</h3>
+        <h4>I'm blue</h4>
+
+        <!-- INLINE CSS -->
+        <span style="color: green; font-size: 20px;"></span>
+        <!-- INLINE CSS -->
+        
+        <p class="first-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, quae nemo voluptatum excepturi ipsa, nostrum aspernatur, at sunt esse ab illum impedit non saepe temporibus odit consectetur recusandae numquam ipsum.</p>
+        <p class="second_paragraph">Second Paragraph...</p>
+        <p class="thirdParagraph">Third Paragraph...</p>
+
+        <span id="tag">HTML5 & CSS</span> <br /> <br />
+        
+        <span class="category">Javascript</span>
+
+        <!-- EXCERSISE -->
+
+        <div class="single-block red-block">
+            <h2 class="red-block-title">HTML</h2>
+        </div>
+
+        <div class="single-block green-block">
+            <h2 class="green-block-title">CSS</h2>
+        </div>
+
+        <div class="single-block blue-block">
+            <h2 class="blue-block-title">Javascript</h2>
+        </div>
+
+        <div class="single-block black-block">
+            <h2>Some text in white... asjd lkasdkl jaskld jklasj dklsajd klsakld jsakld jklasjd klasjd </h2>
+            <span>2 saati</span>
+        </div>
+    </body>
+</html>
