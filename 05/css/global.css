@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+
+.block {
+    width: 300px;
+    height: 300px;
+    background: green;
+    /* display: inline-block; */
+    float: left;
+}
+
+.block-02 {
+    width: 300px;
+    height: 300px;
+    background: red;
+    /* display: inline-block;    */
+    float: right;
+}
+
+.music {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.music li {
+    float: left;
+    margin: 0px 20px;
+}

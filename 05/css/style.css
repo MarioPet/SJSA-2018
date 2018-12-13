@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+}
+.block-two {
+    background-color: red;
+    width: 400px;
+    height: 220px;
+    display: inline-block;
+}
+
+.block-one {
+    background-color: blue;
+    width: 400px;
+    height: 220px;
+}
+.green {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+
+
+    /* border: 5px solid red; */
+    /* padding: 50px 100px 0px 0px; */
+}
+.test {
+    display: inline-block;
+    margin: 0px 0px 50px 0px;
+    text-align: center;
+    
+    /* 
+        Sekoja strana(box-side) poseben stil
+        /* margin-bottom: 50px;
+           margin-left: 100px; */
+    /* 
+        first value: top & bottom, second value: left & right
+        /* margin: 100px 50px; */
+}
+.tag {
+    background-color: blue;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.tag-02 {
+    background-color: blue;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    width: 82px;
+    margin: 50px auto;
+}
