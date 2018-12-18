@@ -1,0 +1,25 @@
+body {
+    margin: 100px;
+}
+
+.image-holder {
+    width: 600px;
+    height: 450px;
+    overflow: hidden;
+}
+
+    .image-holder img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.icon-holder {
+    width: 800px;
+    height: 800px;
+    background-image: url("../images/photo2.jpeg");
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-size: cover;
+    background-position: center;
+}
